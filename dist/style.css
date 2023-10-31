@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.full-bg{
+    background-image: url(../img/bkg-pizza.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    height: 100vh;
+}
+
+#content {
+  grid-row: 1/4;
+  background: rgb(0, 0, 0, 0.75);
+
+  color: white;
+  font-size: 40px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dan{
+    margin-top: 25px;
+}
+
+.pages{
+    display: flex;
+    font-size: 30px;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+
