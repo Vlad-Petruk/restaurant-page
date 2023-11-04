@@ -1,5 +1,6 @@
 import { body,mainInfo } from "./index.js";
-function loadHomePage() {
+
+function loadMenuPage (){
     const content = document.querySelector('#content')
 
     // Body
@@ -11,18 +12,18 @@ function loadHomePage() {
     advertText.classList.add('advert-text');
     advertText.textContent = 'Wine cellar, wine tasting, 🍕wood-fired Neapolitan pizza 🍝Italian pasta 🥩🍤grilled or baked meat and fish, original sushi';
 
-    const advertPhoto = document.createElement('div');
-    advertPhoto.classList.add('advert-photo');
-    const chefPhoto = document.createElement('img');
-    chefPhoto.classList.add('chef');
-    chefPhoto.src= '../img/chef.jpeg'
-    advertPhoto.appendChild(chefPhoto);
+    // const advertPhoto = document.createElement('div');
+    // advertPhoto.classList.add('advert-photo');
+    // const chefPhoto = document.createElement('img');
+    // chefPhoto.classList.add('chef');
+    // chefPhoto.src= '../img/chef.jpeg'
+    // advertPhoto.appendChild(chefPhoto);
 
     mainInfo.appendChild(advertText)
-    mainInfo.appendChild(advertPhoto)
+    // mainInfo.appendChild(advertPhoto)
 
     body.appendChild(mainInfo);
     content.appendChild(body)
 }
 
-export default loadHomePage
+export default loadMenuPage
