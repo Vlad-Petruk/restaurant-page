@@ -18,10 +18,13 @@ let pages = document.createElement('div');
 pages.classList.add('pages');
 
 let home = document.createElement('div');
+home.classList.add('nav-el');
 home.innerHTML = 'Home';
 let menu = document.createElement('div');
+menu.classList.add('nav-el');
 menu.innerHTML = 'Menu';
 let contact = document.createElement('div')
+contact.classList.add('nav-el');
 contact.innerHTML = "Contact";
 
 pages.appendChild(home);
