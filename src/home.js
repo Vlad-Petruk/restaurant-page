@@ -1,5 +1,7 @@
 function loadMainPage() {
     const content = document.querySelector('#content')
+
+    // Header
     const header = document.createElement('div');
     header.classList.add('header')
 
@@ -25,6 +27,9 @@ function loadMainPage() {
     header.appendChild(pages)
 
     content.appendChild(header)
+
+    // Body
+    const body = document.createElement('div');
 }
 
 export default loadMainPage

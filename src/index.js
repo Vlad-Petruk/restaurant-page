@@ -1,4 +1,4 @@
-import loadMainPage from "./main-page.js"
+import loadMainPage from "./home.js"
 
 loadMainPage();
 

@@ -42,4 +42,40 @@
     margin-top: 40px;
 }
 
+.body{
+    grid-row: 5/10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.main-info{
+    background: rgb(0, 0, 0, 0.75);
+    color: white;
+    height: 450px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advert-text{
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.advert-photo{
+    height: 200px;
+    width: 200px;
+
+    margin-top: 3rem;
+}
+
+.chef{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
